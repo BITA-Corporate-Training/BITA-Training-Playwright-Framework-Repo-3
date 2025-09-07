@@ -47,7 +47,7 @@ test('TC_01_Verify_Url', async()=>{
 
 })
 
-test.skip(`TC_02_Verify_Title`, async()=>{
+test(`TC_02_Verify_Title`, async()=>{
     let title = await page.title();
     
     expect(title).toBe(GlobalConstants.SwagLabApplicationTitle);
