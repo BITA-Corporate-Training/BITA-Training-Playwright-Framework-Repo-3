@@ -1,0 +1,3 @@
+export class ProductConstants{
+    static ProductConstantsUrl = "https://www.saucedemo.com/v1/inventory.html";
+}
